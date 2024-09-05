@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <title>Food-2</title>
+</head>
+
+<body>
+    <!-----------Header----------Section---------Start----------->
+    <header>
+        <div id="memu-bar" class="fas fa-bars"></div>
+
+        <a href="#" class="logo"><i class="fas fa-utensils"></i>Food</a>
+        <nav class="navbar">
+            <a href="#Home">Home</a>
+            <a href="#Deshes">Deshes</a>
+            <a href="#About">About</a>
+            <a href="#Gallery">Gallery</a>
+            <a href="#Review">Review</a>
+            <a href="#Team">Team</a>
+            <a href="#Contact">Contact</a>
+        </nav>
+        <!--------Icon---------div------->
+        <div class="icon">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-shopping-cart" id="cart-btn"></i>
+            <i class="fas fa-heart" id="fav-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+        <!--------Icon---------div------->
+        
+        <!----------Search--------Form----------->
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="Search me...?">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+        <!----------Search--------Form----------->
+
+        
+
+        <!--------Shopping---------Cart---------->
+        <div class="shopping-cart">
+            <!-----Box-----1----->
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="Img/Creact-1.jfif">
+                <div class="content">
+                    <h3>Fride Chicken</h3>
+                    <span class="ptich">$3.80</span>
+                    <span class="quantity">Qty:- 1</span>
+                </div>
+            </div>
+            <!-----Box-----2----->
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="Img/Crieat-2.jfif">
+                <div class="content">
+                    <h3>Hoot Burger</h3>
+                    <span class="ptich">$3.80</span>
+                    <span class="quantity">Qty:- 1</span>
+                </div>
+            </div>
+            <!-----Box-----3----->
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="Img/Creaet-3.jfif">
+                <div class="content">
+                    <h3>Hot Beef</h3>
+                    <span class="ptich">$3.80</span>
+                    <span class="quantity">Qty:- 1</span>
+                </div>
+            </div>
+            <div class="total">Total : $10.99</div>
+            <a href="#" class="btn">Check Out</a>
+        </div>
+        <!--------Shopping---------Cart---------->
+
+
+        <!-------Favoriet------Form-------->
+        <form action="" class="fav-form">
+            <h3 class="head">FaVoRiTe....?</h3>
+            <!-----Box-----1----->
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="Img/Creact-1.jfif">
+                <div class="content">
+                    <h3>Fried Chacken</h3>
+                    <span class="ptich">$3.80</span>
+                    <span class="quantity">Qty:- 1</span>
+                </div>
+            </div>
+            <!-----Box-----2----->
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="Img/Creaet-3.jfif">
+                <div class="content">
+                    <h3>Hot Beef</h3>
+                    <span class="ptich">$3.80</span>
+                    <span class="quantity">Qty:- 1</span>
+                </div>
+            </div>
+        </form>
+        <!-------Favoriet------Form-------->
+
+
+        <!-----------Login-----------From------------->
+        <div class="login-form-container">
+            <i class="fas fa-times" id="from-close"></i>
+            <form action="">
+                <h3>LogiN</h3>
+                <input type="text" class="box" placeholder="Enter Your Fist Name">
+                <input type="text" class="box" placeholder="Enter yourt Last Name">
+                <input type="email" class="box" placeholder="Enter Your Email">
+                <input type="password" class="box" placeholder="Enter Your Password">
+                <input type="submit" value="Login Now" class="btn" name="" id="" required>
+                <input type="checkbox" id="remember">
+                <label for="remember">Remember Me</label>
+                <p>Forget Password? <a href="#">Click Here</a></p>
+                <p>Don't Have And Account? <a href="#">Register Now</a></p>
+            </form>
+        </div>
+        <!-----------Login-----------From------------->
+    </header>
+    <!-----------Header----------Section---------End----------->
+
+
+
+
+    <!-----------Home-----------Sectio----------Start------------->
+    <section class="Home" id="Home">
+        <div class="content">
+            <h3>Get Food By <span>Esey</span>Payment</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Consequuntur, provident nesciunt. Pariatur optio hic veniam
+                vero voluptates debitis impedit nemo?</p>
+            <a href="#Order Now" class="btn">Order Now</a>
+        </div>
+    </section>
+    <!-----------Home-----------Sectio----------End------------->
+
+
+
+    <!-----------Dish-----------Sectio----------Start------------->
+    <section class="Dishes" id="Deshes">
+        <h3 class="sub-heading">Our Dish</h3>
+        <h1 class="heading"><span>Spacial</span> <span>Dishes</span></h1>
+        <div class="box-container">
+            <!--------Box--------1--------->
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="img/Burger-1.png">
+                <h3>Sweat Food</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <br>
+                    <span>$4.99</span>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+            <!--------Box--------2--------->
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="img/Burger-1.png">
+                <h3>Sweat Food</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <br>
+                    <span>$4.99</span>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+            <!--------Box--------3--------->
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="img/Burger-1.png">
+                <h3>Sweat Food</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <br>
+                    <span>$4.99</span>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+            <!--------Box--------4--------->
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="img/Burger-1.png">
+                <h3>Sweat Food</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <br>
+                    <span>$4.99</span>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+            <!--------Box--------5--------->
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="img/Burger-1.png">
+                <h3>Sweat Food</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <br>
+                    <span>$4.99</span>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+            <!--------Box--------6--------->
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="img/Burger-1.png">
+                <h3>Sweat Food</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <br>
+                    <span>$4.99</span>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+        </div>
+    </section>
+    <!-----------Dish-----------Sectio----------End------------->
+
+
+
+
+    <!----------About-----------Sectio----------Start------------>
+    <section class="About" id="About">
+        <h3 class="sub-heading">Our About</h3>
+        <h1 class="heading"><span>Why</span> <span>Coise</span></h1>
+        <div class="row">
+            <div class="image">
+                <img src="img/Creact-1.jfif">
+            </div>
+            <div class="content">
+                <h3>Best Food in The Country</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur
+                    adipisicing elit. Natus, impedit.
+                    Lorem ipsum, dolor sit amet consectetur
+                    adipisicing elit. Natus, impedit.
+                </p>
+                <div class="icon-container">
+                    <div class="icon">
+                        <i class="fa-solid fa-truck-fast"></i>
+                        <span>Fast Delivery</span>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-brands fa-speakap"></i>
+                        <span>Esey Payment</span>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-mobile-retro"></i>
+                        <span>24/7 services</span>
+                    </div>
+                </div>
+                <a href="#" class="btn">Lern More</a>
+            </div>
+        </div>
+    </section>
+    <!----------About-----------Sectio----------End------------>
+
+
+
+
+    <!----------Gallery----------Section---------Start----------->
+    <section class="Gallery" id="Gallery">
+        <h3 class="sub-heading">Our Gallery</h3>
+        <h1 class="heading"><span>Helthe</span> <span>Food</span></h1>
+        <div class="box-container">
+            <!------Box----------1----->
+            <div class="box">
+                <img src="img/Home.jpg">
+                <div class="content">
+                    <h3>Amazing Places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, non.</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+            <!------Box----------2----->
+            <div class="box">
+                <img src="img/Home.jpg">
+                <div class="content">
+                    <h3>Amazing Places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, non.</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+            <!------Box----------3----->
+            <div class="box">
+                <img src="img/Home.jpg">
+                <div class="content">
+                    <h3>Amazing Places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, non.</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+            <!------Box----------4----->
+            <div class="box">
+                <img src="img/Home.jpg">
+                <div class="content">
+                    <h3>Amazing Places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, non.</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+            <!------Box----------5----->
+            <div class="box">
+                <img src="img/Home.jpg">
+                <div class="content">
+                    <h3>Amazing Places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, non.</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+            <!------Box----------6----->
+            <div class="box">
+                <img src="img/Home.jpg">
+                <div class="content">
+                    <h3>Amazing Places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, non.</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+            <!------Box----------7----->
+            <div class="box">
+                <img src="img/Home.jpg">
+                <div class="content">
+                    <h3>Amazing Places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, non.</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+            <!------Box----------8----->
+            <div class="box">
+                <img src="img/Home.jpg">
+                <div class="content">
+                    <h3>Amazing Places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, non.</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+            <!------Box----------9----->
+            <div class="box">
+                <img src="img/Home.jpg">
+                <div class="content">
+                    <h3>Amazing Places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, non.</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!----------Gallary----------Section---------End----------->
+
+
+
+
+    <!----------Review----------Section---------Start----------->
+    <section class="Review" id="Review">
+        <h3 class="sub-heading">Customer Review</h3>
+        <h1 class="heading"><span>Happy</span> <span>Customer</span></h1>
+        <div class="wraper">
+            <!-------Box-------1----->
+            <div class="box">
+                <i class="fas fa-quote-left quote"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat optio saepe quas eum reprehenderit
+                    exercitationem, hic necessitatibus itaque aliquid consectetur?</p>
+                <div class="contact">
+                    <div class="info">
+                        <div class="name">Alex Smit</div>
+                        <div class="job">Desiner</div>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="img/Rev-1.jpg">
+                    </div>
+                </div>
+                <i class="fas fa-quote-left quote"></i>
+            </div>
+            <!-------Box-------2----->
+            <div class="box">
+                <i class="fas fa-quote-left quote"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat optio saepe quas eum reprehenderit
+                    exercitationem, hic necessitatibus itaque aliquid consectetur?</p>
+                <div class="contact">
+                    <div class="info">
+                        <div class="name">Alex Smit</div>
+                        <div class="job">Desiner</div>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="Img/Rev-2.jpg">
+                    </div>
+                </div>
+                <i class="fas fa-quote-left quote"></i>
+            </div>
+            <!-------Box-------3----->
+            <div class="box">
+                <i class="fas fa-quote-left quote"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat optio saepe quas eum reprehenderit
+                    exercitationem, hic necessitatibus itaque aliquid consectetur?</p>
+                <div class="contact">
+                    <div class="info">
+                        <div class="name">Alex Smit</div>
+                        <div class="job">Desiner</div>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="img/Rev-3.jpg">
+                    </div>
+                </div>
+                <i class="fas fa-quote-left quote"></i>
+            </div>
+            <!-------Box-------4----->
+            <div class="box">
+                <i class="fas fa-quote-left quote"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat optio saepe quas eum reprehenderit
+                    exercitationem, hic necessitatibus itaque aliquid consectetur?</p>
+                <div class="contact">
+                    <div class="info">
+                        <div class="name">Alex Smit</div>
+                        <div class="job">Desiner</div>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="img/Rev-4.jpg">
+                    </div>
+                </div>
+                <i class="fas fa-quote-left quote"></i>
+            </div>
+            <!-------Box-------5----->
+            <div class="box">
+                <i class="fas fa-quote-left quote"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat optio saepe quas eum reprehenderit
+                    exercitationem, hic necessitatibus itaque aliquid consectetur?</p>
+                <div class="contact">
+                    <div class="info">
+                        <div class="name">Alex Smit</div>
+                        <div class="job">Desiner</div>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="img/Rev-5.jpg">
+                    </div>
+                </div>
+                <i class="fas fa-quote-left quote"></i>
+            </div>
+            <!-------Box-------6----->
+            <div class="box">
+                <i class="fas fa-quote-left quote"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat optio saepe quas eum reprehenderit
+                    exercitationem, hic necessitatibus itaque aliquid consectetur?</p>
+                <div class="contact">
+                    <div class="info">
+                        <div class="name">Alex Smit</div>
+                        <div class="job">Desiner</div>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="img/Rev-6.jpg">
+                    </div>
+                </div>
+                <i class="fas fa-quote-left quote"></i>
+            </div>
+        </div>
+    </section>
+    <!----------Review----------Section---------End----------->
+
+
+
+    <!----------Team----------Section---------Start----------->
+    <section class="" id="Team">
+        <h3 class="sub-heading">Our Team</h3>
+        <h1 class="heading"><span>Surfe</span> <span>Man</span></h1>
+        <div class="main">
+            <!-----------Team------1-------->
+            <div class="card">
+                <div class="image-contant">
+                    <div class="overlay"></div>
+                    <div class="card-image">
+                        <img src="img/T-1.jpg" class="card-img">
+                    </div>
+                </div>
+                <div class="card-contant">
+                    <h2 class="name">De Villiers</h2>
+                    <p class="discription">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, iure dicta.
+                        Sapiente magnam sit nam.</p>
+                    <div class="teams-social-link">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </div>
+                </div>
+            </div>
+            <!-----------Team------2-------->
+            <div class="card">
+                <div class="image-contant">
+                    <div class="overlay"></div>
+                    <div class="card-image">
+                        <img src="img/T-2.png" class="card-img">
+                    </div>
+                </div>
+                <div class="card-contant">
+                    <h2 class="name">De Villiers</h2>
+                    <p class="discription">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, iure dicta.
+                        Sapiente magnam sit nam.</p>
+                    <div class="teams-social-link">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </div>
+                </div>
+            </div>
+            <!-----------Team------3-------->
+            <div class="card">
+                <div class="image-contant">
+                    <div class="overlay"></div>
+                    <div class="card-image">
+                        <img src="img/T-3.jpg" class="card-img">
+                    </div>
+                </div>
+                <div class="card-contant">
+                    <h2 class="name">De Villiers</h2>
+                    <p class="discription">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, iure dicta.
+                        Sapiente magnam sit nam.</p>
+                    <div class="teams-social-link">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </div>
+                </div>
+            </div>
+            <!-----------Team------4-------->
+            <div class="card">
+                <div class="image-contant">
+                    <div class="overlay"></div>
+                    <div class="card-image">
+                        <img src="img/T-4.jpg" class="card-img">
+                    </div>
+                </div>
+                <div class="card-contant">
+                    <h2 class="name">De Villiers</h2>
+                    <p class="discription">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, iure dicta.
+                        Sapiente magnam sit nam.</p>
+                    <div class="teams-social-link">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </div>
+                </div>
+            </div>
+            <!-----------Team------5-------->
+            <div class="card">
+                <div class="image-contant">
+                    <div class="overlay"></div>
+                    <div class="card-image">
+                        <img src="img/T-5.jpg" class="card-img">
+                    </div>
+                </div>
+                <div class="card-contant">
+                    <h2 class="name">De Villiers</h2>
+                    <p class="discription">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, iure dicta.
+                        Sapiente magnam sit nam.</p>
+                    <div class="teams-social-link">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </div>
+                </div>
+            </div>
+            <!-----------Team------6-------->
+            <div class="card">
+                <div class="image-contant">
+                    <div class="overlay"></div>
+                    <div class="card-image">
+                        <img src="img/T-6.jpg" class="card-img">
+                    </div>
+                </div>
+                <div class="card-contant">
+                    <h2 class="name">De Villiers</h2>
+                    <p class="discription">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, iure dicta.
+                        Sapiente magnam sit nam.</p>
+                    <div class="teams-social-link">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!----------Team----------Section---------End----------->
+
+
+
+
+    <!----------Delevary----------Section---------Start----------->
+    <section>
+        <h3 class="sub-heading">Our Deleyvary</h3>
+        <h1 class="heading"><span>First</span> <span>Deleyvary</span></h1>
+        <div class="delevary">
+            <!--------DelBox----1-------->
+            <div class="delevary-box">
+                <div class="delevart-img">
+                    <img src="img/Del-1.jpg">
+                </div>
+                <div class="services-name">
+                    <h3>Quicq Delyvary</h3>
+                </div>
+            </div>
+            <!--------DelBox----2-------->
+            <div class="delevary-box">
+                <div class="delevart-img">
+                    <img src="img/Del-5.jpeg">
+                </div>
+                <div class="services-name">
+                    <h3>Quicq Delyvary</h3>
+                </div>
+            </div>
+            <!--------DelBox----3-------->
+            <div class="delevary-box">
+                <div class="delevart-img">
+                    <img src="img/Del-4.jpg">
+                </div>
+                <div class="services-name">
+                    <h3>Quicq Delyvary</h3>
+                </div>
+            </div>
+            <!--------DelBox----4-------->
+            <div class="delevary-box">
+                <div class="delevart-img">
+                    <img src="img/Del-1.jpg">
+                </div>
+                <div class="services-name">
+                    <h3>Quicq Delyvary</h3>
+                </div>
+            </div>
+            <!--------DelBox----5-------->
+            <div class="delevary-box">
+                <div class="delevart-img">
+                    <img src="img/Del-5.jpeg">
+                </div>
+                <div class="services-name">
+                    <h3>Quicq Delyvary</h3>
+                </div>
+            </div>
+            <!--------DelBox----6-------->
+            <div class="delevary-box">
+                <div class="delevart-img">
+                    <img src="img/Del-4.jpg">
+                </div>
+                <div class="services-name">
+                    <h3>Quicq Delyvary</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!----------Delevary----------Section---------End----------->
+
+
+
+    <!----------Contact----------Section---------Start----------->
+    <section class="Contact" id="Contact">
+        <h3 class="sub-heading">Our Contact</h3>
+        <h1 class="heading"><span>First</span> <span>Contact</span></h1>
+        <div class="contact-container">
+            <div class="contact-box">
+                <div class="left"></div>
+                <div class="right">
+                    <h1>Countact Us</h1>
+                    <input type="text" class="fild" placeholder="Enter Your Name" required>
+                    <input type="email" name="email" id="" class="fild" placeholder="Enter Your Email" required>
+                    <input type="password" class="fild" placeholder="Enter Your password" required>
+                    <textarea class="textarea" placeholder="Enbter Your Massage" required></textarea>
+                    <input type="submit" name="" value="Submit" class="submit-btn">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!----------Contact----------Section---------End----------->
+
+
+
+
+    <!-----------Footer--------Section-----------Start---------->
+    <section class="Footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Our Address</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, ipsa?</p>
+            </div>
+            <div class="box">
+                <h3>Contact Info</h3>
+                <a href="#"><i class="fa-solid fa-phone-volume"></i> +01732816962</a>  
+                <a href="#"><i class="fa-brands fa-whatsapp"></i> +01737268782</a>
+                <a href="#"><i class="fa-regular fa-envelope"></i>md.naofel.badsha@gmail.com</a>
+                <a href="#"><i class="fa-solid fa-location-dot"></i>Rajshahi, Naogoan</a>             
+            </div>
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#Home"><i class="fa-solid fa-right-long"></i>Home</a>
+                <a href="#About"><i class="fa-solid fa-right-long"></i>About</a>
+                <a href="#Services"><i class="fa-solid fa-right-long"></i>Services</a>
+                <a href="#Trainer"><i class="fa-solid fa-right-long"></i>Trainer</a>
+                <a href="#Team"><i class="fa-solid fa-right-long"></i>Team</a>
+                <a href="#Pricing"><i class="fa-solid fa-right-long"></i>Pricing</a>
+                <a href="#Contact"><i class="fa-solid fa-right-long"></i>Contact</a>
+            </div>
+            <div class="box">
+                <h3>Extra Links</h3>
+                <a href="#Home"><i class="fa-solid fa-right-long"></i>Refund policy</a>
+                <a href="#About"><i class="fa-solid fa-right-long"></i>My Account</a>
+                <a href="#Services"><i class="fa-solid fa-right-long"></i>New Equipments</a>
+                <a href="#Trainer"><i class="fa-solid fa-right-long"></i>New Offers</a>
+                <a href="#Team"><i class="fa-solid fa-right-long"></i>Trainers</a>
+            </div>
+            <div class="share">
+                <a href="#"> <i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+
+        </div>
+        <div class="credit">&copy; All Rights Are Resived By <span>Naofel <i class="fa-solid fa-heart-crack"></i> Badsha</span></div>
+    </section>
+    <!-----------Footer--------Section-----------End---------->
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
